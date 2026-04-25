@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Work</title>
+
+<link rel="stylesheet" href="OurWorks.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="nav.css">
+<link rel="stylesheet" href="card.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"></link>
+</head>
+
+<body>
+
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <img src="images/logb.png" alt="NGO Logo" class="ngo-logo">
+      <span>Nehru Vikas Manav Samiti</span>
+    </div>
+
+    <div class="nav-links" id="navLinks">
+      <a href="Index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="OurWorks.html">Our Works</a>
+      <a href="Contact.html">Contact</a>
+    </div>
+
+    <div class="menu-toggle" id="menuToggle">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+  </nav>
+
+
+
+<!-- 🌿 Background -->
+<div class="bg-image"></div>
+
+<!-- HERO -->
+<section class="hero">
+
+  <div class="hero-left">
+    <h1>Our Work</h1>
+    <p class="sub">Creating real impact through education, care, and empowerment.</p>
+
+    <p class="desc">
+     At NEHRU VIKAS MANAV SAMITI, we work closely with communities to bring positive
+     change where it’s needed the most. Through small but meaningful efforts, we aim
+     to improve lives and create better opportunities for the future.</p>
+
+    <ul>
+      <li>Education </li>   <li>Women Empowerment  </li><li>Health Camps</li>
+      
+    </ul>
+  </div>
+
+  <div class="hero-right"></div>
+
+</section>
+
+<!-- 🌊 TOP CURVE -->
+<div class="wave-top">
+<svg viewBox="0 0 1440 200">
+  <path fill="#ffffff" fill-opacity="0.7"
+    d="M0,96L60,112C120,128,240,160,360,165C480,171,600,149,720,128C840,107,960,85,1080,90C1200,96,1320,128,1440,160V0H0Z">
+  </path>
+</svg>
+</div>
+
+<!-- CARDS -->
+
+<div class="carousel">
+  <div class="track">
+
+    <div class="card"
+         data-img="images/slide1.jpg"
+         data-title="Education Program"
+         data-desc="We provide quality education to children in rural areas through books, mentorship and digital learning.">
+      <div class="card-bg" style="background-image:url('images/a.jpg')"></div>
+      <div class="card-info">
+        <h3>Education</h3>
+        <p>Providing quality education for children.</p>
+      </div>
+    </div>
+
+    <div class="card"
+         data-img="images/slide2.jpg"
+         data-title="Women Empowerment"
+         data-desc="We conduct training programs to empower women with skills and confidence.">
+      <div class="card-bg" style="background-image:url('images/do1.jpg')"></div>
+      <div class="card-info">
+        <h3>Empowerment</h3>
+        <p>Helping women become independent.</p>
+      </div>
+    </div>
+
+    <div class="card"
+         data-img="images/slide3.jpg"
+         data-title="Health Camps"
+         data-desc="Organizing free medical camps and awareness programs in rural areas.">
+      <div class="card-bg" style="background-image:url('images/slide3.jpg')"></div>
+      <div class="card-info">
+        <h3>Health</h3>
+        <p>Medical support and awareness.</p>
+      </div>
+    </div>
+
+    <div class="card"
+         data-img="images/slide4.jpg"
+         data-title="Environment Drive"
+         data-desc="Tree plantation drives and sustainability campaigns for a greener future.">
+      <div class="card-bg" style="background-image:url('images/slide4.jpg')"></div>
+      <div class="card-info">
+        <h3>Environment</h3>
+        <p>Promoting green living.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- MODAL -->
+<div class="modal">
+  <div class="modal-content">
+    <div class="modal-overlay">
+      <h2 id="modal-title"></h2>
+      <p id="modal-desc"></p>
+    </div>
+  </div>
+</div>
+
+<!-- IMPACT -->
+<section class="impact">
+
+  <h2>Our Impact</h2>
+
+  <div class="impact-circle">
+    <h1>1,000+</h1>
+    <p>Lives Impacted</p>
+  </div>
+
+  <div class="impact-boxes">
+  <div class="box b1"><h3 id="c1">0</h3><p>Children</p></div>
+  <div class="box b2"><h3 id="c2">0</h3><p>Women</p></div>
+  <div class="box b3"><h3 id="c3">0</h3><p>Camps</p></div>
+  <div class="box b4"><h3 id="c4">0</h3><p>Communities</p></div>
+</div>
+
+</section>
+
+<!-- 🌊 BOTTOM CURVE -->
+<div class="wave-bottom">
+<svg viewBox="0 0 1440 200">
+  <path fill="#ffffff" fill-opacity="0.7"
+    d="M0,160L60,140C120,120,240,80,360,70C480,60,600,80,720,100C840,120,960,140,1080,130C1200,120,1320,80,1440,60V200H0Z">
+  </path>
+</svg>
+</div>
+
+<!-- ================= CTA ================= -->
+<!-- <section class="cta">
+  <h2>Be a Part of the Change</h2>
+  <p>Together, we can support children, empower women, and build healthier communities.</p>
+  <a href="Contact.html">
+    <button class="btn-primary">Get Involved</button>
+  </a>
+</section> -->
+<!-- JS -->
+
+<script src="script.js"></script>
+<script src="nav.js"></script>
+</body>
+</html>
